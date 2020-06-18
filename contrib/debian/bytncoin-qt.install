@@ -1,0 +1,6 @@
+usr/local/bin/bytncoin-qt usr/bin
+share/pixmaps/bytncoin32.xpm usr/share/pixmaps
+share/pixmaps/bytncoin16.xpm usr/share/pixmaps
+share/pixmaps/bytncoin128.png usr/share/pixmaps
+debian/bytncoin-qt.desktop usr/share/applications
+debian/bytncoin-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,33 @@
+# /etc/conf.d/bytncoind: config file for /etc/init.d/bytncoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bytncoin/bytncoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bytncoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bytncoind.pid"
+
+# Where to write bytncoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bytncoind"
+
+# User and group to own bytncoind process
+#BITCOIND_USER="bytncoin"
+#BITCOIND_GROUP="bytncoin"
+
+# Path to bytncoind executable
+#BITCOIND_BIN="/usr/bin/bytncoind"
+
+# Nice value to run bytncoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

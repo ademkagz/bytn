@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Bytncoin Core
+Comment=Bytncoin P2P Cryptocurrency
+Comment[fr]=Bytncoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bytncoin, eşten eşe kriptografik sanal para birimi
+Exec=bytncoin-qt %u
+Terminal=false
+Type=Application
+Icon=bytncoin128
+MimeType=x-scheme-handler/bytncoin;
+Categories=Office;Finance;
+StartupWMClass=Bytncoin-qt
